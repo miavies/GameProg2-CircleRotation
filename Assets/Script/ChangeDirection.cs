@@ -18,8 +18,7 @@ public class ChangeDirection : MonoBehaviour
     {
         if (Input.anyKeyDown)
         {
-            direction = direction * (-1);
-            
+            direction = direction * (-1);  
         }
         return direction;
     }

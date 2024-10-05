@@ -9,7 +9,7 @@ public class RotationManager : ChangeDirection
 
     void Start()
     {
-        rotationSpeed = 2f;
+        rotationSpeed = 3.5f;
         startDirection();
     }
 
